@@ -1,0 +1,19 @@
+*{
+box-sizing: border-box;
+padding: 0;
+}
+.navbar {
+  min-width: 100%;
+ display: grid;
+ grid-template-columns: 1fr 5fr;
+  background-color: #f0f0f0; /* Optional: Add a background color */
+}
+.navbar__search {
+  /* Optional: Add styles for the search input */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.navbar__right{
+  text-align: right;
+}
